@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Tshirt - 1",
+      "categoryId": "2",
+      "description": "Product description goes here.",
+      "price": 100,
+      "productImg": "http://localhost:4200/assets/1.jpg",
+      "is_available": true,
+      "rating": 4,
+      "reviews": 120,
+      "vendor-name": "Seller - 1",
+      "warranty": 2
+    },
+    {
+      "id": 2,
+      "productName": "Tshirt - 2",
+      "categoryId": "1",
+      "description": "Product description goes here.",
+      "price": 40,
+      "productImg": "http://localhost:4200/assets/2.jpg",
+      "is_available": false,
+      "rating": 3,
+      "reviews": 150,
+      "vendor-name": "Seller - 2",
+      "warranty": 1
+    },
+    {
+      "id": 3,
+      "productName": "Tshirt - 3",
+      "categoryId": "3",
+      "description": "Product description goes here.",
+      "price": 400,
+      "productImg": "http://localhost:4200/assets/3.jpg",
+      "is_available": true,
+      "rating": 4,
+      "reviews": 250,
+      "vendor-name": "Seller - 3",
+      "warranty": 1.5
+    },
+    {
+      "id": 4,
+      "productName": "Tshirt - 4",
+      "categoryId": "4",
+      "description": "Product description goes here.",
+      "price": 200,
+      "productImg": "http://localhost:4200/assets/4.webp",
+      "is_available": true,
+      "rating": 3.5,
+      "reviews": 150,
+      "vendor-name": "Seller - 4",
+      "warranty": 2
+    },
+    {
+      "id": 5,
+      "productName": "Tshirt - 5",
+      "categoryId": "5",
+      "description": "Product description goes here.",
+      "price": 300,
+      "productImg": "http://localhost:4200/assets/5.jpg",
+      "is_available": true,
+      "rating": 5,
+      "reviews": 550,
+      "vendor-name": "Seller - 5",
+      "warranty": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Polo Tshirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "Soccer Tshirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Casual Tshirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "Shirts"
+    },
+    {
+      "id": 5,
+      "categoryName": "Shoes"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
